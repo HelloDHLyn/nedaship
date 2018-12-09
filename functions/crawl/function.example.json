@@ -1,0 +1,13 @@
+{
+  "timeout": 120,
+  "environment": {
+    "GOOGLE_APPLICATION_CREDENTIALS": "service-account.json",
+    "GCP_AUTOML_MODEL_ID": "",
+    "GCP_PROJECT_ID": "",
+    "TWITTER_ACCESS_TOKEN": ""
+  },
+  "hooks": {
+    "build": "pip install -r requirements.txt --target libs",
+    "clean": "rm -rf libs"
+  }
+}

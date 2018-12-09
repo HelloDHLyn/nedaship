@@ -1,0 +1,8 @@
+{
+  "name": "nedaship",
+  "memory": 128,
+  "timeout": 5,
+  "runtime": "python3.6",
+  "role": "arn:aws:iam::225623829217:role/nedaship_lambda_function",
+  "environment": {}
+}

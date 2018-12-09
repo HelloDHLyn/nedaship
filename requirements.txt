@@ -1,0 +1,2 @@
+boto3>=1.9,<2.0
+google-cloud-automl==0.1.1
